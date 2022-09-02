@@ -25,7 +25,7 @@ const AddUser = () => {
   }
 
   return (
-    <div className="mt-10 max-w-xl mx-auto">
+    <div className="mt-10 max-w-xl mx-auto text-mexican-red-700">
       <TextField
         label="Name"
         value={values.name}
@@ -37,7 +37,7 @@ const AddUser = () => {
         label="Email"
         value={values.email}
         onChange={(e) => setValues({ ...values, email: e.target.value })}
-        inputProps={{ type: 'email', placeholder: 'jhondoe@mail.com' }}
+        inputProps={{ type: 'email', placeholder: 'jhondoe@mail.com'}}
       />
       <Button onClick={handleAddUser}>Submit</Button>
     </div>
