@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom"
 import Button from "../../components/Button"
 import TextField from "../../components/TextField"
-import { editUser } from "./userSlice"
+import { editUser } from "./deleteUser"
 
 const EditUser = () => {
   const params = useParams();
